@@ -1,0 +1,29 @@
+Untuk instalasi Laravel, diperlukan PHP dan Composer.
+1.PHP harus diinstal sebelum composer.
+  PHP bisa diunduh di https://www.php.net/downloads.php
+  Atau menggunakan aplikasi paket WAMP atau XAMPP.
+  Kali ini akan dilakukan instalasi PHP secara manual pada C:\php,
+  selanjutnya lakukan registrasi pada Advanced System Setting,
+  Klik menu Environment Variables... > System variables > pilih Path > Edit... > New
+  Masukkan lokasi file php.exe, yaitu C:\php, kemudian klik OK.
+
+  Tes hasil registrasi php lewat CMD dengan perintah: php -v
+  Jika sukses, akan menampilkan versi dari php tersebut.
+
+2.Instalasi Composer
+  Unduh di http://getcomposer.org, lalu instal hingga selesai.
+  Untuk melakukan instalasi composer, komputer diharuskan terhubung Internet.
+
+  Tes instalasi Composer lewat CMD dengan perintah: composer-v
+  Jika benar akan menampilkan versi composer tersebut.
+
+3.Membuat proyek baru Laravel.
+  Gunakan composer melalui CMD untuk membuat proyek baru Laravel dengan perintah: 
+  composer create-project laravel/laravel kasir
+
+  Perintah tersebut akan mengunduh file master laravel terbaru yang stabil.
+
+4.Menjalankan server laravel.
+  Melalui CMD gunakan perintah: php artisan serve
+  Secara default sistem akan memberikan tautan: http://127.0.0.1:8000
+  Buka tautan tersebut pada browser untuk mengakses server laravel.
